@@ -9,3 +9,83 @@ h1 {
 h2 {
     font-size: 18px;
 }
+h1, h2, p {
+    color: rgb(0, 172, 0);
+}
+
+@media screen and (max-width: 1150px) {
+    .welcome {
+        font-size: 45px;
+    }
+    .infor {
+        font-size: 13.5px;
+    }
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+}
+@media screen and (max-width: 1050px) {
+    body {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .welcome {
+        font-size: 42px;
+    }
+    .infor {
+        font-size: 12.6px;
+    }
+}
+@media screen and (max-width: 960px) {
+    .welcome {
+        font-size: 39px;
+    }
+    .infor {
+        font-size: 11.7px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+    main {
+        margin: 0;
+    }
+    .welcome {
+        font-size: 42px;
+    }
+    .infor {
+        font-size: 12.6px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .welcome {
+        font-size: 39px;
+    }
+    .infor {
+        font-size: 11.7px;
+    }
+    .service-price {
+        display: block;
+    }
+}
+@media screen and (max-width: 480px) {
+    .welcome {
+        font-size: 24px;
+    }
+    .infor {
+        font-size: 7.2px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .welcome {
+        font-size: 20px;
+    }
+    .infor {
+        font-size: 6px;
+    }
+}
