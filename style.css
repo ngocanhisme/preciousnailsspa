@@ -1,0 +1,194 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(209, 248, 209);
+    padding: 5px 15px 10px 15px;
+    border-right: 2px green solid;
+    min-width: 10%;
+}
+.navigation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.Contact-us {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+    left: 15px;
+    padding: 5px;
+    padding-top: 10px;
+}
+.navigation a {
+    color: black;
+    border-radius: 4px;
+    margin: 1px 0;
+    cursor: pointer;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+.Contact-us div {
+    margin-bottom: 5px;
+}
+.precious {
+    font-family: Lobster;
+    color: green;
+    font-size: 23px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px black solid;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.title {
+    font-size: 15px;
+    border-bottom: 1px black solid;
+    padding-bottom: 5px;
+}
+.avatar {
+    margin-right: 10px;
+    width: 30px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.c1 {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2px;
+}
+.c1 img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+main {
+    margin-left: 237px;
+}
+.Home-page {
+    text-align: center;
+    background: url(thumbnail.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 200px 400px 200px;
+    color: black;
+    font-weight: bold;
+}
+.infor {
+    margin: auto;
+    position: relative;
+    border-radius: 4px;
+}
+.infor::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black, green);
+    filter: blur(5px);
+    opacity: 0.4;
+}
+.welcome {
+    font-family: Lobster;
+    font-size: 50px;
+}
+.service-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: inherit;
+}
+.service-price .part {
+    flex: 1;
+    padding: 15px 30px 30px 30px;
+}
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+h1, h2, p {
+    color: rgb(0, 172, 0);
+}
+.part p {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footmassage, .nailimage, .waxing {
+    margin-top: 10px;
+}
+.footmassage img {
+    width: 100%;
+}
+.nailimage img {
+    width: 80%;
+}
+.waxing img {
+    width: 101%;
+}
+.footmassage img,
+.nailimage img,
+.waxing img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.About {
+    background-color: rgb(196, 192, 192);
+    padding: 30px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 15px;
+
+}
+.container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.c2 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.c2 a{
+    font-size: 13px;
+    color: blue;
+}
+.c2 img {
+    width: 40px;
+    margin-right: 10px;
+}
+iframe {
+    margin: auto;
+    width: 90%;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+.About p {
+    font-size: 15px;
+    font-family: Pacifico, Roboto, Arial;
+    color: black;
+    text-shadow: 0 0 5px white;
+    text-align: center;
+}
