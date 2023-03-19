@@ -4,9 +4,10 @@
     bottom: 0;
     left: 0;
     background-color: rgb(209, 248, 209);
-    padding: 5px 15px 10px 15px;
+    padding: 10px 15px 5px 15px;
     border-right: 2px green solid;
-    min-width: 10%;
+    width: 16.52%;
+    z-index: 100;
 }
 .navigation {
     display: flex;
@@ -47,11 +48,6 @@
     margin-bottom: 10px;
     padding-bottom: 10px;
 }
-.title {
-    font-size: 15px;
-    border-bottom: 1px black solid;
-    padding-bottom: 5px;
-}
 .avatar {
     margin-right: 10px;
     width: 30px;
@@ -71,23 +67,22 @@
 
 
 main {
-    margin-left: 237px;
+    margin-left: 19.12%;
 }
 .Home-page {
-    text-align: center;
     background: url(thumbnail.jpg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
-    padding: 20px 200px 400px 200px;
     color: black;
     font-weight: bold;
+    padding-bottom: 44%;
+    padding-top: 10px;
+    text-align: center;
 }
 .infor {
-    margin: auto;
     position: relative;
     border-radius: 4px;
-    text-align: center;
-    font-size: 16px;
 }
 .infor::before {
     content: "";
@@ -108,7 +103,6 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: inherit;
 }
 .service-price .part {
     flex: 1;
@@ -120,34 +114,20 @@ main {
     align-items: center;
     padding: 5px 0;
 }
-h1, h2, p {
-    color: rgb(0, 172, 0);
-}
-.part p {
-    font-size: 20px;
-    font-weight: bold;
-}
 .footmassage, .nailimage, .waxing {
     margin-top: 10px;
-}
-.footmassage img {
-    width: 100%;
-}
-.nailimage img {
-    width: 80%;
-}
-.waxing img {
-    width: 101%;
 }
 .footmassage img,
 .nailimage img,
 .waxing img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
+    width: 100%;;
+    height: auto;
 }
 
 .About {
-    background-color: rgb(196, 192, 192);
+    background: linear-gradient(white, gray);
     padding: 30px;
 }
 .container {
@@ -188,9 +168,9 @@ iframe {
     padding-top: 10px;
 }
 .About p {
-    font-size: 15px;
     font-family: Pacifico, Roboto, Arial;
     color: black;
     text-shadow: 0 0 5px white;
     text-align: center;
+    font-size: 20px;
 }
