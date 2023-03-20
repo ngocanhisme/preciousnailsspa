@@ -1,3 +1,33 @@
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(209, 248, 209);
+    border-bottom: 2px green solid;
+    z-index: 100;
+    display: none;
+    padding: 0 15px;
+}
+.header-navigation a {
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 7px;
+    width: 61px;
+    text-align: center;
+}
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    padding: 10px;
+    align-items: center; 
+}
 .sidebar {
     position: fixed;
     top: 0;
@@ -76,7 +106,7 @@ main {
     background-position: center;
     color: black;
     font-weight: bold;
-    padding-bottom: 44%;
+    padding-bottom: 100%;
     padding-top: 10px;
     text-align: center;
 }
@@ -102,7 +132,7 @@ main {
 .service-price {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 .service-price .part {
     flex: 1;
