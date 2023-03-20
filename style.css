@@ -102,7 +102,7 @@ main {
 .Home-page {
     background: url(thumbnail.jpg) no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: center;
     color: black;
     font-weight: bold;
