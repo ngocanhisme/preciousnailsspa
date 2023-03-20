@@ -102,8 +102,8 @@ main {
 .Home-page {
     background: url(thumbnail.jpg) no-repeat;
     background-size: cover;
-    background-attachment: scroll;
     background-position: center;
+    background-attachment: scroll;
     color: black;
     font-weight: bold;
     padding-bottom: 100%;
@@ -149,11 +149,10 @@ main {
 }
 .footmassage img,
 .nailimage img,
-.waxing img {
+.deluxe img {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     border-radius: 8px;
-    width: 100%;;
-    height: auto;
+    width: 100%;
 }
 
 .About {
