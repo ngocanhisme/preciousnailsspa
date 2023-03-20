@@ -53,13 +53,22 @@ h1, h2, p {
         display: none;
     }
     main {
-        margin: 0;
+        margin: 54px 0 0 0;
     }
     .welcome {
         font-size: 42px;
     }
     .infor {
         font-size: 12.6px;
+        margin-top: 54px;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .precious {
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 720px) {
@@ -98,3 +107,4 @@ h1, h2, p {
         font-size: 6px;
     }
 }
+
