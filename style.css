@@ -109,7 +109,6 @@ main {
     padding-bottom: 100%;
     padding-top: 10px;
     text-align: center;
-    -webkit-transform: translateZ(0);
 }
 .infor {
     position: relative;
