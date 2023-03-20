@@ -98,6 +98,9 @@ h1, h2, p {
     .infor {
         font-size: 7.2px;
     }
+    .Home-page {
+        padding-bottom: 150%;
+    }
 }
 @media screen and (max-width: 320px) {
     .welcome {
