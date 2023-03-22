@@ -132,8 +132,6 @@ main {
 }
 .service-price {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
 }
 .service-price .part {
     flex: 1;
